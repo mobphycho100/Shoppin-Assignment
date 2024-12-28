@@ -1,0 +1,202 @@
+/* General styling for the page */
+body {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Logo styling */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 90px;
+    margin: 20px;
+    display: block;
+}
+
+/* Main container for text and watch image */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 29px;
+    position: relative;
+}
+
+/* Get started container styling */
+.get-started-container {
+    max-width: 750px;
+    text-align: left;
+    line-height: 25px;
+    margin-top: 95px;
+}
+
+.get-started-container h1 {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    color: #1d1d1f;
+}
+
+.get-started-container p {
+    font-size: 60px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 15px 0;
+    line-height: 69px;
+    letter-spacing: -0.576px;
+}
+
+.get-started-container button {
+    background-color: #0070e7;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.get-started-container button:hover {
+    background-color: #005bb5;
+}
+
+/* Watch container styling */
+.watch-container {
+    position: relative;
+    width: 100%;
+    max-width: 750px;
+    top: auto;
+    transition: all 0.3s ease;
+}
+
+.watch-band {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.watch-case {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.watch-side-view-image{
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* ------------------------ */
+
+/* Select Collection Container */
+.select-collection-container {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    color: #1d1d1f;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Save Button */
+.save-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #0070e7;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+    background-color: #005bb5;
+}
+
+/* Watch Details Container */
+.watch-details-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.watch-details-container button {
+    background-color: transparent;
+    border: 1px solid #0070e7;
+    color: #0070e7;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    line-height: 20.0003px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.watch-details-container button:hover {
+    background-color: #0070e7;
+    color: white;
+}
+
+/* Watch Details Text */
+.watch-details-container h2 {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #6e6e73;
+}
+
+.watch-details-container p {
+    font-size: 15px;
+    color: #1d1d1f;
+    margin: 5px 0;
+    word-spacing: 2px;
+    letter-spacing: .5px;
+}
+
+/* Features Container */
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.features-container button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #e8e8ed;
+    border: 0;
+    color: #1d1d1f;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 22px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.features-container button:hover {
+    border-color: #0070e7;
+    color: #0070e7;
+}
+

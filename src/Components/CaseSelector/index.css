@@ -1,0 +1,60 @@
+.watch-selector {
+    text-align: center;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    gap: 10px;
+    overflow: auto;
+    /* Enable scrolling */
+    scrollbar-width: none;
+    /* For Firefox */
+    -ms-overflow-style: none;
+    /* For IE/Edge */
+}
+
+.carousel img {
+    width: 350px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.carousel img.selected {
+    opacity: 1;
+}
+
+.watch-display {
+    margin: 20px auto;
+}
+
+.watch-display h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.watch-case-image {
+    opacity: 1 !important;
+    position: absolute;
+    width: 250px;
+    pointer-events: none;
+}
+
+.filters button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filters button:hover {
+    background: #ddd;
+}
